@@ -1,0 +1,208 @@
+config firewall address
+edit Afghanistan
+set type geography
+set country AF
+next
+edit Armenia
+set type geography
+set country AM
+next
+edit Azerbaijan
+set type geography
+set country AZ
+next
+edit Bahrain
+set type geography
+set country BH
+next
+edit Bangladesh
+set type geography
+set country BD
+next
+edit Bhutan
+set type geography
+set country BT
+next
+edit Brunei
+set type geography
+set country BN
+next
+edit Cambodia
+set type geography
+set country KH
+next
+edit China
+set type geography
+set country CN
+next
+edit Cyprus
+set type geography
+set country CY
+next
+edit Georgia
+set type geography
+set country GE
+next
+edit India
+set type geography
+set country IN
+next
+edit Indonesia
+set type geography
+set country ID
+next
+edit Iran
+set type geography
+set country IR
+next
+edit Iraq
+set type geography
+set country IQ
+next
+edit Israel
+set type geography
+set country IL
+next
+edit Japan
+set type geography
+set country JP
+next
+edit Jordan
+set type geography
+set country JO
+next
+edit Kazakhstan
+set type geography
+set country KZ
+next
+edit Kuwait
+set type geography
+set country KW
+next
+edit Kyrgyzstan
+set type geography
+set country KG
+next
+edit Laos
+set type geography
+set country LA
+next
+edit Lebanon
+set type geography
+set country LB
+next
+edit Malaysia
+set type geography
+set country MY
+next
+edit Maldives
+set type geography
+set country MV
+next
+edit Mongolia
+set type geography
+set country MN
+next
+edit Myanmar
+set type geography
+set country MM
+next
+edit Nepal
+set type geography
+set country NP
+next
+edit NorthKorea
+set type geography
+set country KP
+next
+edit Oman
+set type geography
+set country OM
+next
+edit Pakistan
+set type geography
+set country PK
+next
+edit Palestine
+set type geography
+set country PS
+next
+edit Philippines
+set type geography
+set country PH
+next
+edit Qatar
+set type geography
+set country QA
+next
+edit Russia
+set type geography
+set country RU
+next
+edit SaudiArabia
+set type geography
+set country SA
+next
+edit Singapore
+set type geography
+set country SG
+next
+edit SouthKorea
+set type geography
+set country KR
+next
+edit SriLanka
+set type geography
+set country LK
+next
+edit Syria
+set type geography
+set country SY
+next
+edit Taiwan
+set type geography
+set country TW
+next
+edit Tajikistan
+set type geography
+set country TJ
+next
+edit Thailand
+set type geography
+set country TH
+next
+edit TimorLeste
+set type geography
+set country TL
+next
+edit Turkey
+set type geography
+set country TR
+next
+edit Turkmenistan
+set type geography
+set country TM
+next
+edit UnitedArabEmirates
+set type geography
+set country AE
+next
+edit Uzbekistan
+set type geography
+set country UZ
+next
+edit Vietnam
+set type geography
+set country VN
+next
+edit Yemen
+set type geography
+set country YE
+next
+end
+
+config firewall addrgrp
+edit Asie
+set member Afghanistan Armenia Azerbaijan Bahrain Bangladesh Bhutan Brunei Cambodia China Cyprus Georgia India Indonesia Iran Iraq Israel Japan Jordan Kazakhstan Kuwait Kyrgyzstan Laos Lebanon Malaysia Maldives Mongolia Myanmar Nepal NorthKorea Oman Pakistan Palestine Philippines Qatar Russia SaudiArabia Singapore SouthKorea SriLanka Syria Taiwan Tajikistan Thailand TimorLeste Turkey Turkmenistan UnitedArabEmirates Uzbekistan Vietnam Yemen
+next
+end
