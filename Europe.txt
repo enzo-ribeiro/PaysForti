@@ -1,0 +1,115 @@
+config firewall address
+edit Austria
+set type geography
+set country AT
+next
+edit Belgium
+set type geography
+set country BE
+next
+edit Bulgaria
+set type geography
+set country BG
+next
+edit Croatia
+set type geography
+set country HR
+next
+edit Cyprus
+set type geography
+set country CY
+next
+edit CzechRepublic
+set type geography
+set country CZ
+next
+edit Denmark
+set type geography
+set country DK
+next
+edit Estonia
+set type geography
+set country EE
+next
+edit Finland
+set type geography
+set country FI
+next
+edit France
+set type geography
+set country FR
+next
+edit Germany
+set type geography
+set country DE
+next
+edit Greece
+set type geography
+set country GR
+next
+edit Hungary
+set type geography
+set country HU
+next
+edit Ireland
+set type geography
+set country IE
+next
+edit Italy
+set type geography
+set country IT
+next
+edit Latvia
+set type geography
+set country LV
+next
+edit Lithuania
+set type geography
+set country LT
+next
+edit Luxembourg
+set type geography
+set country LU
+next
+edit Malta
+set type geography
+set country MT
+next
+edit Netherlands
+set type geography
+set country NL
+next
+edit Poland
+set type geography
+set country PL
+next
+edit Portugal
+set type geography
+set country PT
+next
+edit Romania
+set type geography
+set country RO
+next
+edit Slovakia
+set type geography
+set country SK
+next
+edit Slovenia
+set type geography
+set country SI
+next
+edit Spain
+set type geography
+set country ES
+next
+edit Sweden
+set type geography
+set country SE
+next
+end
+config firewall addrgrp
+edit Europe
+set member Austria Belgium Bulgaria Croatia Cyprus CzechRepublic Denmark Estonia Finland France Germany Greece Hungary Ireland Italy Latvia Lithuania Luxembourg Malta Netherlands Poland Portugal Romania Slovakia Slovenia Spain Sweden
+next
+end
