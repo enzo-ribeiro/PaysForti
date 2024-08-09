@@ -1,0 +1,225 @@
+config firewall address
+edit Algeria
+set type geography
+set country DZ
+next
+edit Angola
+set type geography
+set country AO
+next
+edit Benin
+set type geography
+set country BJ
+next
+edit Botswana
+set type geography
+set country BW
+next
+edit BurkinaFaso
+set type geography
+set country BF
+next
+edit Burundi
+set type geography
+set country BI
+next
+edit CapeVerde
+set type geography
+set country CV
+next
+edit Cameroon
+set type geography
+set country CM
+next
+edit CentralAfricanRepublic
+set type geography
+set country CF
+next
+edit Chad
+set type geography
+set country TD
+next
+edit Comoros
+set type geography
+set country KM
+next
+edit Congo
+set type geography
+set country CG
+next
+edit DemocraticRepublicOfCongo
+set type geography
+set country CD
+next
+edit Djibouti
+set type geography
+set country DJ
+next
+edit Egypt
+set type geography
+set country EG
+next
+edit EquatorialGuinea
+set type geography
+set country GQ
+next
+edit Eritrea
+set type geography
+set country ER
+next
+edit Eswatini
+set type geography
+set country SZ
+next
+edit Ethiopia
+set type geography
+set country ET
+next
+edit Gabon
+set type geography
+set country GA
+next
+edit Gambia
+set type geography
+set country GM
+next
+edit Ghana
+set type geography
+set country GH
+next
+edit Guinea
+set type geography
+set country GN
+next
+edit GuineaBissau
+set type geography
+set country GW
+next
+edit IvoryCoast
+set type geography
+set country CI
+next
+edit Kenya
+set type geography
+set country KE
+next
+edit Lesotho
+set type geography
+set country LS
+next
+edit Liberia
+set type geography
+set country LR
+next
+edit Libya
+set type geography
+set country LY
+next
+edit Madagascar
+set type geography
+set country MG
+next
+edit Malawi
+set type geography
+set country MW
+next
+edit Mali
+set type geography
+set country ML
+next
+edit Mauritania
+set type geography
+set country MR
+next
+edit Mauritius
+set type geography
+set country MU
+next
+edit Morocco
+set type geography
+set country MA
+next
+edit Mozambique
+set type geography
+set country MZ
+next
+edit Namibia
+set type geography
+set country NA
+next
+edit Niger
+set type geography
+set country NE
+next
+edit Nigeria
+set type geography
+set country NG
+next
+edit Rwanda
+set type geography
+set country RW
+next
+edit SaoTomeAndPrincipe
+set type geography
+set country ST
+next
+edit Senegal
+set type geography
+set country SN
+next
+edit Seychelles
+set type geography
+set country SC
+next
+edit SierraLeone
+set type geography
+set country SL
+next
+edit Somalia
+set type geography
+set country SO
+next
+edit SouthAfrica
+set type geography
+set country ZA
+next
+edit SouthSudan
+set type geography
+set country SS
+next
+edit Sudan
+set type geography
+set country SD
+next
+edit Tanzania
+set type geography
+set country TZ
+next
+edit Togo
+set type geography
+set country TG
+next
+edit Tunisia
+set type geography
+set country TN
+next
+edit Uganda
+set type geography
+set country UG
+next
+edit Zambia
+set type geography
+set country ZM
+next
+edit Zimbabwe
+set type geography
+set country ZW
+next
+end
+
+config firewall addrgrp
+edit Afrique
+set member Algeria Angola Benin Botswana BurkinaFaso Burundi CapeVerde Cameroon CentralAfricanRepublic Chad Comoros Congo DemocraticRepublicOfCongo Djibouti Egypt EquatorialGuinea Eritrea Eswatini Ethiopia Gabon Gambia Ghana Guinea GuineaBissau IvoryCoast Kenya Lesotho Liberia Libya Madagascar Malawi Mali Mauritania Mauritius Morocco Mozambique Namibia Niger Nigeria Rwanda SaoTomeAndPrincipe Senegal Seychelles SierraLeone Somalia SouthAfrica SouthSudan Sudan Tanzania Togo Tunisia Uganda Zambia Zimbabwe
+next
+
+end
