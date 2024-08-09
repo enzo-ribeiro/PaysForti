@@ -1,0 +1,55 @@
+config firewall address
+edit Argentina
+set type geography
+set country AR
+next
+edit Bolivia
+set type geography
+set country BO
+next
+edit Brazil
+set type geography
+set country BR
+next
+edit Chile
+set type geography
+set country CL
+next
+edit Colombia
+set type geography
+set country CO
+next
+edit Ecuador
+set type geography
+set country EC
+next
+edit Guyana
+set type geography
+set country GY
+next
+edit Paraguay
+set type geography
+set country PY
+next
+edit Peru
+set type geography
+set country PE
+next
+edit Suriname
+set type geography
+set country SR
+next
+edit Uruguay
+set type geography
+set country UY
+next
+edit Venezuela
+set type geography
+set country VE
+next
+end
+
+edit AmeriqueDuSud
+set member Argentina Bolivia Brazil Chile Colombia Ecuador Guyana Paraguay Peru Suriname Uruguay Venezuela
+next
+end
