@@ -1,0 +1,20 @@
+config firewall address
+edit Canada
+set type geography
+set country CA
+next
+edit UnitedStates
+set type geography
+set country US
+next
+edit Mexico
+set type geography
+set country MX
+next
+end
+
+config firewall addrgrp
+edit AmériqueDuNord
+set member Canada UnitedStates Mexico
+next
+end
