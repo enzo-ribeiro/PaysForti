@@ -1,0 +1,64 @@
+config firewall address
+edit Australia
+set type geography
+set country AU
+next
+edit Fiji
+set type geography
+set country FJ
+next
+edit Kiribati
+set type geography
+set country KI
+next
+edit MarshallIslands
+set type geography
+set country MH
+next
+edit Micronesia
+set type geography
+set country FM
+next
+edit Nauru
+set type geography
+set country NR
+next
+edit NewZealand
+set type geography
+set country NZ
+next
+edit Palau
+set type geography
+set country PW
+next
+edit PapuaNewGuinea
+set type geography
+set country PG
+next
+edit Samoa
+set type geography
+set country WS
+next
+edit SolomonIslands
+set type geography
+set country SB
+next
+edit Tonga
+set type geography
+set country TO
+next
+edit Tuvalu
+set type geography
+set country TV
+next
+edit Vanuatu
+set type geography
+set country VU
+next
+end
+
+config firewall addrgrp
+edit Oceanie
+set member Australia Fiji Kiribati MarshallIslands Micronesia Nauru NewZealand Palau PapuaNewGuinea Samoa SolomonIslands Tonga Tuvalu Vanuatu
+next
+end
